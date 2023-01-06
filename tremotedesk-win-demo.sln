@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1500
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tremotedesk-win-demo", "tremotedesk-win-demo\tremotedesk-win-demo.vcxproj", "{B00CA758-C918-4784-BEFF-3EE70240E926}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B00CA758-C918-4784-BEFF-3EE70240E926}.Debug|x86.ActiveCfg = Debug|Win32
+		{B00CA758-C918-4784-BEFF-3EE70240E926}.Debug|x86.Build.0 = Debug|Win32
+		{B00CA758-C918-4784-BEFF-3EE70240E926}.Release|x86.ActiveCfg = Release|Win32
+		{B00CA758-C918-4784-BEFF-3EE70240E926}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8CB93859-DDE2-456B-BB22-D7CA6A1C9863}
+	EndGlobalSection
+EndGlobal
