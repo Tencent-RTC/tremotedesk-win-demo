@@ -78,6 +78,13 @@ void tremotedeskwindemo::onHostConnected(const char* userid, void* context) {
 	log += " onHostConnected\n";
 	emit sdkLog(log.c_str());
 	m_mediaEngine->EnableLocalMediaChannel(m_screenStreamId.c_str(), true);
+
+	// 开启音频
+	// m_mediaEngine->EnableLocalMediaChannel(m_audioStreamId.c_str(), true);
+
+
+	// 后续如果想关闭音频
+	// m_mediaEngine->EnableLocalMediaChannel(m_audioStreamId.c_str(), false);
 }
 
 void tremotedeskwindemo::onJoined(const char* userId, bool local, const char* role, void* context) {
